@@ -4,7 +4,7 @@
 
 const fs = require('fs');
 const path = require('path')
-const dnsm = require('..');
+const downs = require('..');
 const pkg = require('../package.json');
 
 function core(argv, callback) {
@@ -74,14 +74,14 @@ function core(argv, callback) {
     options.dist = path.join(process.cwd(), options.dist)
   }
 
-  dnsm(options);
+  downs(options);
 
   function setOptions(curArg) {
 
     let curArgName = getArgName(curArg);
 
-    if (dnsm.defaults.hasOwnProperty(curArgName)) {
-      if (typeof dnsm.defaults[curArgName] === 'boolean') {
+    if (downs.defaults.hasOwnProperty(curArgName)) {
+      if (typeof downs.defaults[curArgName] === 'boolean') {
         options[curArgName] = curArg.indexOf('--no-') !== 0;
       } else {
         let curValue = argv.shift();

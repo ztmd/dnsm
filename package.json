@@ -1,23 +1,24 @@
 {
-  "name": "dnsm",
+  "name": "downs",
   "version": "0.0.1",
   "description": "Download sourcemaps to unsourcemap them.",
-  "main": "dnsm.js",
+  "main": "downs.js",
   "bin": {
-    "dnsm": "./bin/dnsm"
+    "downs": "./bin/downs",
+    "dnsm": "./bin/downs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ztmd/dnsm.git"
+    "url": "git+https://github.com/ztmd/downs.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ztmd/dnsm/issues"
+    "url": "https://github.com/ztmd/downs/issues"
   },
-  "homepage": "https://github.com/ztmd/dnsm#readme"
+  "homepage": "https://github.com/ztmd/downs#readme"
 }

@@ -1,25 +1,25 @@
-# dnsm
+# downs
 
-**D**ow**n**load **s**ource**m**aps to [`unsourcemap`](https://github.com/ztmd/unsourcemap) them.
+**Down**load **s**ourcemaps to [`unsourcemap`](https://github.com/ztmd/unsourcemap) them.
 
 ## Install
 
 npm:
 
 ```shell
-npm install dnsm --global
+npm install downs --global
 ```
 
 yarn:
 
 ```shell
-yarn global add dnsm
+yarn global add downs
 ```
 
 ## Usage
 
 ```shell
-dnsm url [options]
+downs url [options]
 ```
 
 See [help](docs/help) for more information.
@@ -47,7 +47,7 @@ Specify the url to download. Ends with '/'.
 - type: String
 - default: 'dist'
 
-Directory for file output. If it is not start with '/', `dnsm` will parse it as a relative path to `process.cwd()`.
+Directory for file output. If it is not start with '/', `downs` will parse it as a relative path to `process.cwd()`.
 
 ### `--index-path`
 
@@ -89,7 +89,7 @@ Fetch css files and sourcemaps.
 Checkout this repository locally, then:
 
 ```shell
-node bin/dnsm
+node bin/downs
 ```
 
 ## License
