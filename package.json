@@ -1,6 +1,6 @@
 {
   "name": "downs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Download sourcemaps to unsourcemap them.",
   "main": "downs.js",
   "bin": {
