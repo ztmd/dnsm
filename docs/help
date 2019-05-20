@@ -1,0 +1,28 @@
+Usage: dnsm url [--options value]
+       dnsm url [--options=value]
+
+Options:
+
+  # SYSTEM
+
+  -v, --version                   Print current version.
+  -h, --help                      Print this help.
+
+  # VALUE
+
+  -i, --input, --url, --src       Url to download. Ends with '/'.
+  -o, --output, --dist            Directory for output.
+
+  -index-path                     Specify the homepage's filename to write.
+                                    Defaults to `index.html`
+
+  -js-path                        Specify the path for js files.
+                                    Defaults to `static/js/`
+
+  -css-path                       Specify the path for css files.
+                                    Defaults to `static/css/`
+
+  # BOOLEAN
+
+  --js                            Fetch js files and sourcemaps.
+  --css                           Fetch css files and sourcemaps.
